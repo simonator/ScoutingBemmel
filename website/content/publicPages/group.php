@@ -52,7 +52,6 @@
 					</div>
 				</div>
 			</div>
-
 			<div class="row">
 				<div class="col-sm-6">
 					<h3>Groeps gegevens</h3>
@@ -82,7 +81,6 @@
 					<a href="/aanmelden"><p class="button">Wordt lid van de Bevers</p></a>
 				</div>
 			</div>
-
 			<div class="row group-images">
 				<div class="col-md-4 col-lg-3">
 					<img src="img/bevers/red.jpg">
