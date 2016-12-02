@@ -1,0 +1,9 @@
+form > span					{ clear: both; display: block; width: 100%; }
+form > span *				{ display: inline-block; }
+form > span > span 			{ float: right; widtH: 60%; }
+form > span > input			{ float: right; width: 60%; }
+form > span > textarea 		{ float: right; width: 60%; resize: vertical; }
+
+form input		{ color: #080808; }
+form textarea	{ color: #080808; }
+form p 			{ margin: 5px; }
