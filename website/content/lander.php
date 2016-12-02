@@ -9,8 +9,8 @@
 		$page = 'home';
 	}
 	//check if page exists, if so load it, else throw a 404 error
-	if (file_exists(ROOTPATH.'/content/publicPages/'.$page.'.php')) {
-		require ROOTPATH.'/content/publicPages/'.$page.'.php';
+	if (file_exists(ROOTPATH.'/content/'.$page.'.php')) {
+		require ROOTPATH.'/content/'.$page.'.php';
 	} else {
 		header('Location: 404');
 	}
