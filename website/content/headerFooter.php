@@ -34,41 +34,44 @@
 
 	$footer = '
 	<div class="container">
-		<div class="row">
-			<div class="col-sm-3">
-				<h3>Navigatie</h3>
+		<div class="row footer-top">
+			<div class="col-sm-4 footer-nav">
+				<h3>Pagina\'s</h3>
 				<div>
 					<nav>
-						<a href="#">home</a>
-						<a href="#">link 1</a>
-						<a href="#">link 2</a>
-						<a href="#">link 3</a>
-						<a href="#">link 4</a>
+						<a href="home">Over Ons</a>
+						<a href="hut">Blokhut</a>
+						<a href="member">Lid Worden</a>
+						<a href="contact">Contact</a>
+					</nav>
+					<nav>
+						<a href="groepen/bevers">Bevers</a>
+						<a href="groepen/kabouters">Kabouters</a>
+						<a href="groepen/welpen">Welpen</a>
+						<a href="groepen/scouts">Scouts</a>
+						<a href="groepen/explos">Explo\'s</a>
+						<a href="groepen/pivos">Pivo\'s</a>
+						<a href="groepen/stam">Stam</a>
 					</nav>
 				</div>
 			</div>
-			<div class="col-sm-3">
+			<div class="col-sm-4 footer-contact">
 				<h3>Contact</h3>
 				<div>
-					<p>
-						telefoon: 0481-555555<br>
-						email: info@scoutingbemmel.nl<br>
-						facebook: [link]
-					</p>
-					<a href="#">Meld aan voor nieuwsbrief</a>
+					<ul>
+						<li><span>Straat: </span>Straatlaan 12</li>
+						<li><span>Plaats: </span>Bemmel</li>
+						<li><span>Postcode: </span>7878 ER</li>
+						<li><span>Telefoon: </span>0481 753069</li>
+						<li><span>Email: </span>0481 753069</li>
+					</ul>
 				</div>
 			</div>
-			<div class="col-sm-3">
-				<h3>Inloggen</h3>
-				<div>
-					<p>Hier komt een form.</p>
-				</div>
-			</div>
-			<div class="col-sm-3 hidden-xs logo">
+			<div class="col-sm-4 hidden-xs footer-logo">
 				<img src="img/logo.png" alt="Scouting Bemmel">
 			</div>
 		</div>
-		<div class="row bottom">
+		<div class="row footer-bottom">
 			<p>&copy; Scouting Bemmel | 1947 - '.date("Y").' | Alle rechten voorbehouden</p>
 		</div>
 	</div>
