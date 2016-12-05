@@ -11,7 +11,7 @@
 				<nav class="hidden-xs menu nav-horizontal">
 					<a href="home">Over Ons</a>
 					<span class="dropdown-trigger">
-						<a>Groepen</a>
+						<a>Speltakken</a>
 						<div class="dropdown">
 							<a href="groepen/bevers">Bevers</a>
 							<a href="groepen/kabouters">Kabouters</a>

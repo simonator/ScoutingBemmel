@@ -1,10 +1,8 @@
 .group-logo img						{ width: 100%; max-width: 200px; display: block; margin: 0% auto; }
 
 .group-staff						{ background-color: rgba(8, 8, 8, 0.2); margin: 15px 0px; padding: 10px; border-left: 2px solid #f2f2f2; border-right: 2px solid #f2f2f2; white-space: nowrap; }
-
-.group-staff-photo					{ display: inline-block!important; width: 40%!important; height: adjust; border-radius: 50%; }
-.group-staff-details				{ display: inline-block; width: 60%; }
-
+.group-staff-photo					{ display: inline-block!important; width: 30%!important; height: adjust; border-radius: 50%; }
+.group-staff-details				{ display: inline-block; width: 70%; }
 .group-staff-details p 				{ margin: 2px; padding-left: 20px; white-space: wrap; }
 .group-staff-details p:first-child	{ font-weight: bold; padding-left: 5px; }
 
