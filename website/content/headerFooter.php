@@ -63,7 +63,6 @@
 						<li><span>Plaats: </span>Bemmel</li>
 						<li><span>Postcode: </span>7878 ER</li>
 						<li><span>Telefoon: </span>0481 753069</li>
-						<li><span>Email: </span>0481 753069</li>
 					</ul>
 				</div>
 			</div>
