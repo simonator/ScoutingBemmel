@@ -48,7 +48,7 @@
 
 	$groupContact = '
 		<p>
-			Email: explos@scoutingbemmel.nl
+			Email: explos@scoutingbemmel.nl<br>
 			Telefoon: 06-40022467
 		</p>
 	';
