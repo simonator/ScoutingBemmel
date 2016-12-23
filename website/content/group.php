@@ -4,13 +4,13 @@
 	if (isset($_GET['group']) && $_GET['group'] != null) {
 		$group = strtolower($_GET['group']);
 	} else {
-		header('Location: 404');
+		header('Location: ../404');
 	}
 	//check if page exists, if so load it, else throw a 404 error
 	if (file_exists(ROOTPATH.'/content/groupContent/'.$group.'.php')) {
 		require ROOTPATH.'/content/groupContent/'.$group.'.php';
 	} else {
-		header('Location: 404');
+		header('Location: ../404');
 	}
 
 	$title = 'Groepspagina';
