@@ -23,7 +23,7 @@
 	$groupTeamString = '';
 	foreach($groupTeam as $person) {
 		$groupTeamString .= '
-			<div class="col-md-6">
+			<div class="col-md-4 col-sm-6">
 				<div class="group-staff">
 					<img class="group-staff-photo" src="img/bevers/blue.jpg">
 					<div class="group-staff-details">
