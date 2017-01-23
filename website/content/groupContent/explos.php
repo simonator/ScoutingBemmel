@@ -16,35 +16,15 @@
 	';
 
 	$groupTeam = [
-		['Marlou Stoffels','Creatief, actief, kinderachtig'],
-		['Laura Schot',''],
-		['Rik Broekman','']
+		'Marlou Stoffels'
 	];
-	$groupTeamCount = count($groupTeam);
-	$groupTeamString = '';
-	foreach($groupTeam as $person) {
-		$groupTeamString .= '
-			<div class="col-md-6">
-				<div class="group-staff">
-					<img class="group-staff-photo" src="img/bevers/blue.jpg">
-					<div class="group-staff-details">
-						<p>'.$person[0].'</p>
-						<p>'.$person[1].'</p>
-					</div>
-				</div>
-			</div>
-		';
-	}
-	$groupTeam = $groupTeamString;
 
-	$groupDetails = '
-		<ul>
-			<li>Voor jongens en meisjes</li>
-			<li>Van 14 tot 17 jaar</li>
-			<li>Op vrijdagavond</li>
-			<li>Van 20:15 uur tot 21:45 uur</li>
-		</ul>
-	';
+	$groupDetails = [
+		'Voor jongens en meisjes',
+		'Van 14 tot 17 jaar',
+		'Op vrijdagavond',
+		'Van 20:15 uur tot 21:45 uur'
+	];
 
 	$groupContact = '
 		<p>

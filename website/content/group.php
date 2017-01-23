@@ -1,5 +1,8 @@
 <?php
 
+/* =============================================================================
+	GET GROUP PAGE CONTENT
+==============================================================================*/
 	//check url for what group content needs to be loaded
 	if (isset($_GET['group']) && $_GET['group'] != null) {
 		$group = strtolower($_GET['group']);
@@ -13,6 +16,36 @@
 		header('Location: ../404');
 	}
 
+/* =============================================================================
+	PROCESS CONTENT
+==============================================================================*/
+	//turn team array into html
+	$groupTeamString = '';
+	foreach($groupTeam as $person) {
+		$groupTeamString .= '
+			<div class="col-md-6">
+				<div class="group-staff">
+					<img class="group-staff-photo" src="img/bevers/blue.jpg">
+					<div class="group-staff-details">
+						<p>'.$person.'</p>
+					</div>
+				</div>
+			</div>
+		';
+	}
+	$groupTeam = $groupTeamString;
+
+	//turn details array into html
+	$groupDetailsString = '<ul>';
+	foreach($groupDetails as $detail) {
+		$groupDetailsString .= '<li>'.$detail.'</li>';
+	}
+	$groupDetailsString .= '</ul>';
+	$groupDetails = $groupDetailsString;
+
+/* =============================================================================
+	CREATE HTML
+==============================================================================*/
 	$title = 'Groepspagina';
 	$description = 'Groepspagina';
 	$tags = 'Groepspagina';

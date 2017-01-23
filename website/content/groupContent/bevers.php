@@ -13,38 +13,18 @@
 	';
 
 	$groupTeam = [
-		['Naomi Janssen','Houd van dingen doen en is graag bezig'],
-		['Simon Peperkamp','Graag buiten, weer of geen weer'],
-		['Joep Peters','']
+		'Naomi Janssen',
+		'Simon Peperkamp',
+		'Joep Peters'
 	];
-	$groupTeamCount = count($groupTeam);
-	$groupTeamString = '';
-	foreach($groupTeam as $person) {
-		$groupTeamString .= '
-			<div class="col-md-6">
-				<div class="group-staff">
-					<img class="group-staff-photo" src="img/bevers/blue.jpg">
-					<div class="group-staff-details">
-						<p>'.$person[0].'</p>
-						<p>'.$person[1].'</p>
-					</div>
-				</div>
-			</div>
-		';
-	}
-	$groupTeam = $groupTeamString;
 
-	//TODO bevers > change age
-	$groupDetails = '
-		<ul>
-			<li>Voor jongens en meisjes</li>
-			<li>Van 5 - 7 jaar</li>
-			<li>Op zaterdagmiddag</li>
-			<li>Van 14:00 uur tot 15:30 uur</li>
-		</ul>
-	';
+	$groupDetails = [
+		'Voor jongens en meisjes',
+		'Van 5 - 7 jaar</li>',
+		'Op zaterdagmiddag',
+		'Van 14:00 uur tot 15:30 uur'
+	];
 
-	//TODO:0 bevers > change email
 	$groupContact = '
 		<p>
 			Email: beversbemmel@hotmail.com
